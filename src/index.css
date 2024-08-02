@@ -1,0 +1,19 @@
+/* index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Define custom styles */
+@layer base {
+  body {
+    /* Set the background image */
+    background-image: url('./assets/purple.jpg');
+    /* Ensure the image covers the entire background */
+    background-size: cover;
+    /* Center the image */
+    background-position: center;
+    /* Optional: add more properties like background repeat if needed */
+    background-repeat: no-repeat;
+  }
+}

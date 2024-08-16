@@ -9,7 +9,7 @@ const links = [
     { name: 'Meet our Team', href: '#' },
   ]
   const stats = [
-    { name: 'Successful Workshops', value: '' },
+    { name: 'Art Workshops', value: '' },
     { name: 'Learners', value: '' },
     { name: 'Experience', value: '' },
     { name: 'Comission Works', value: '' },

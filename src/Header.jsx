@@ -9,10 +9,10 @@ const links = [
     { name: 'Meet our Team', href: '#' },
   ]
   const stats = [
-    { name: 'Successful Workshops', value: '29' },
-    { name: 'Learners', value: '250+' },
-    { name: 'Experience', value: '15 yrs' },
-    { name: 'Comission Works', value: '23' },
+    { name: 'Successful Workshops', value: '' },
+    { name: 'Learners', value: '' },
+    { name: 'Experience', value: '' },
+    { name: 'Comission Works', value: '' },
   ]
   
   export default function Header() {
@@ -49,14 +49,14 @@ const links = [
               <div >
                 <img src={logo} alt="YouArt Logo" className="h-[140px] w-30  pr-10" />
               </div>
-              <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">YouArt</h2>
+              <h2 className="text-4xl font-bold tracking-tight text-black sm:text-6xl">YouArt</h2>
             </div>
-            <p className="mt-6 text-lg leading-8 text-white">
+            <p className="mt-6 text-lg leading-8 text-black">
               Discover art at YouArt on the vibrant East Coast Road at Cholamandal Artists’ Village. We offer personalized art courses, workshops for all ages, commissioned artworks, and specialized programs for children with special needs. Led by Director Ranjini Jacob and Creative Director Jacob Jebaraj since 2007.
             </p>
           </div>
           <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-            <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
+            <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-black sm:grid-cols-2 md:flex lg:gap-x-10">
               {links.map((link) => (
                 <a key={link.name} href={link.href}>
                   {link.name} <span aria-hidden="true">&rarr;</span>
@@ -66,8 +66,8 @@ const links = [
             <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
               {stats.map((stat) => (
                 <div key={stat.name} className="flex flex-col-reverse">
-                  <dt className="text-base leading-7 text-gray-300">{stat.name}</dt>
-                  <dd className="text-2xl font-bold leading-9 tracking-tight text-white">{stat.value}</dd>
+                  <dt className="text-base leading-7 text-black">{stat.name}</dt>
+                  <dd className="text-2xl font-bold leading-9 tracking-tight text-black">{stat.value}</dd>
                 </div>
               ))}
             </dl>

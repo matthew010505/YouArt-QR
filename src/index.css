@@ -8,7 +8,7 @@
 @layer base {
   body {
     /* Set the background image */
-    background-image: url('./assets/purple.jpg');
+    background-image: url('./assets/white4.jpg');
     /* Ensure the image covers the entire background */
     background-size: cover;
     /* Center the image */
